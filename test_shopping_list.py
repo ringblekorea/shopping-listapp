@@ -1,9 +1,9 @@
-"""Automated UI test for shopping-list.html (add / check / delete)."""
+"""Automated UI test for index.html (add / check / delete)."""
 import pathlib
 import sys
 from playwright.sync_api import sync_playwright
 
-HTML = pathlib.Path(__file__).parent / "shopping-list.html"
+HTML = pathlib.Path(__file__).parent / "index.html"
 URL = HTML.as_uri()
 
 results = []
